@@ -28,7 +28,6 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
     startCountingSteps();
-
   }
 
   void startCountingSteps() {
@@ -133,8 +132,8 @@ class _MyAppState extends State<MyApp> {
                   _status == 'walking'
                       ? Icons.directions_walk
                       : _status == 'stopped'
-                      ? Icons.accessibility_new
-                      : Icons.error,
+                          ? Icons.accessibility_new
+                          : Icons.error,
                   size: 100,
                 ),
                 SizedBox(height: 20),
