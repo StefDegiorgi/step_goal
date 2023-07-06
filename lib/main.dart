@@ -2,6 +2,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:pedometer/pedometer.dart';
+import 'package:vibration/vibration.dart';
 
 String formatDate(DateTime d) {
   return d.toString().substring(0, 19);
@@ -50,6 +51,7 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       _steps = event.steps - _startSteps;
       if (_steps % 100 == 0 && _steps != 0) {
+        Vibration.vibrate(duration: 1000);
         AudioPlayer().play(AssetSource("blingbling.mp3"));
       }
     });
