@@ -96,7 +96,9 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Your Daily Steps'),
+          backgroundColor: Colors.lightBlueAccent,
         ),
+        backgroundColor: Colors.blueGrey,
         body: Center(
           child: SingleChildScrollView(
             child: Column(
@@ -121,9 +123,9 @@ class _MyAppState extends State<MyApp> {
                 Divider(
                   height: 0,
                   thickness: 0,
-                  color: Colors.white,
+                  color: Colors.blueGrey,
                 ),
-                SizedBox(height: 100),
+                SizedBox(height: 40),
                 Text(
                   'Pedestrian Status',
                   style: TextStyle(fontSize: 30),
@@ -132,8 +134,8 @@ class _MyAppState extends State<MyApp> {
                   _status == 'walking'
                       ? Icons.directions_walk
                       : _status == 'stopped'
-                          ? Icons.accessibility_new
-                          : Icons.error,
+                      ? Icons.accessibility_new
+                      : Icons.error,
                   size: 100,
                 ),
                 SizedBox(height: 20),
@@ -141,7 +143,7 @@ class _MyAppState extends State<MyApp> {
                   _status,
                   style: _status == 'walking' || _status == 'stopped'
                       ? TextStyle(fontSize: 30)
-                      : TextStyle(fontSize: 20, color: Colors.red),
+                      : TextStyle(fontSize: 20, color: Colors.black),
                 ),
               ],
             ),
@@ -150,4 +152,5 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
+
 }
