@@ -4,9 +4,9 @@ Die "step_Goal" App ermöglicht Nutzern das Echtzeit-Tracking ihrer Schritte, oh
 
 ## Screenshot
 
-![screen](https://github.com/StefDegiorgi/step_goal/assets/139114438/d760cb3f-b728-48b4-848a-14a573d62f73)
+<img width="547" alt="screenshot" src="https://github.com/StefDegiorgi/step_goal/assets/139114438/d760cb3f-b728-48b4-848a-14a573d62f73">
 
-![screen2](https://github.com/StefDegiorgi/step_goal/assets/139114438/a18bb6d2-cff0-4dcd-a1fc-3d98e930e6cb)
+
 
 
 For help getting started with Flutter development, view the
