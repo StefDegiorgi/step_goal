@@ -4,7 +4,7 @@ Die "step_Goal" App ermöglicht Nutzern das Echtzeit-Tracking ihrer Schritte, oh
 
 ## Screenshot
 
-<img width="200" alt="screenshot" src="https://github.com/StefDegiorgi/step_goal/assets/139114438/d760cb3f-b728-48b4-848a-14a573d62f73">
+<img width="100" alt="screenshot" src="https://github.com/StefDegiorgi/step_goal/assets/139114438/d760cb3f-b728-48b4-848a-14a573d62f73">
 
 
 
