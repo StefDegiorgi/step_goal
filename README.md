@@ -1,15 +1,13 @@
 # step_goal
 
-A new Flutter project.
+Die "step_Goal" App ermöglicht Nutzern das Echtzeit-Tracking ihrer Schritte, ohne manuelle Eingaben. Smartphone-Begleitung genügt, da die App automatisch Schritte erfasst und zählt. Dies erleichtert die Schritterfassung und fördert unkomplizierte Aktivitätsnachverfolgung.
 
-## Getting Started
+## Screenshot
 
-This project is a starting point for a Flutter application.
+![screen](https://github.com/StefDegiorgi/step_goal/assets/139114438/d760cb3f-b728-48b4-848a-14a573d62f73)
 
-A few resources to get you started if this is your first Flutter project:
+![screen2](https://github.com/StefDegiorgi/step_goal/assets/139114438/a18bb6d2-cff0-4dcd-a1fc-3d98e930e6cb)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
