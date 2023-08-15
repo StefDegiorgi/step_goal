@@ -1,6 +1,6 @@
 # step_goal
 
-Die "step_Goal" App ermöglicht Nutzern das Echtzeit-Tracking ihrer Schritte, ohne manuelle Eingaben. Smartphone-Begleitung genügt, da die App automatisch Schritte erfasst und zählt. Dies erleichtert die Schritterfassung und fördert unkomplizierte Aktivitätsnachverfolgung.
+The "step_Goal" app allows users to track their steps in real time, without manual input. Smartphone accompaniment is all that is needed, as the app automatically records and counts steps. This facilitates step recording and promotes uncomplicated activity tracking.
 
 ## Screenshot
 
